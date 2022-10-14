@@ -32,6 +32,7 @@
                     double Y = double.Parse(Console.ReadLine());
                     Console.WriteLine($"{X} * {Y} = {X * Y}");
                 }
+<<<<<<< HEAD
 
                 else if (command == "hjälp")
                 {
@@ -44,6 +45,14 @@
                 }
 
 
+=======
+                else if (command == "kvadrat")
+                {
+                    Console.Write("tal 1: ");
+                    double X = double.Parse(Console.ReadLine());
+                    Console.WriteLine($"{X}^2 = {X * X}");
+                }
+>>>>>>> square
                 else if (command == "sluta")
                 {
 
